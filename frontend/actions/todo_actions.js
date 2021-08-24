@@ -14,13 +14,13 @@ export const receiveTodos = (todos) => {
 export const receiveTodo = (todo) => {
     return {
         type: RECEIVE_TODO,
-        todo: todo
+        todo
     };
 };
 
-export const removeTodo = (id) => {
+export const removeTodo = (todo) => {
     return {
         type: REMOVE_TODO,
-        id: id
+        todo
     }
 }
