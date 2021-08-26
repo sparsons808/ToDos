@@ -17,7 +17,7 @@ const initialState = {
 const stepsReducer = (state = initialState, action) => {
     Object.freeze(state);
     const nextState = Object.assign({}, state);
-
+    debugger;
     switch(action.type) {
         case RECEIVE_STEPS:
 
